@@ -5,7 +5,7 @@
 }
 
 :root {
-  --terminal-font-color: #b0b2b6;
+  --terminal-font-color: #f6f9ff;
   --terminal-output-color: #f6f6f6;
 }
 
@@ -150,6 +150,7 @@ a:hover {
 .terminal-line {
   position: relative;
   color: var(--terminal-font-color);
+  font-size: large;
 }
 
 .output {
@@ -170,7 +171,7 @@ a:hover {
 .error,
 .social,
 .fa-heart {
-  color: #4069f9;
+  color: #e76796 ;
 }
 
 .fa-heart {
