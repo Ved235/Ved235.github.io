@@ -38,6 +38,8 @@ a:hover {
   top: -10vh;
   right: 0;
   left: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .hero {

@@ -1,7 +1,7 @@
 const COMMANDS = {
   help: 'Supported commands: ["<span class="code">about</span>", "<span class="code">blog</span>", "<span class="code">education</span>", "<span class="code">skills</span>", "<span class="code">contact</span>","<span class="code">party</span>,<span class="code">clear</span>"]',
   about:
-    "Hello 👋<br>My name is Vedant Singhal and I am a aspiring developer.<br>I love to code in Python, JavaScript, C and I have worked with frameworks such as ReactJS and Phaser.<br> I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better developer.",
+    "Hello 👋<br>My name is Vedant Singhal and I am an aspiring developer.<br>I love to code in Python, JavaScript, C and I have worked with frameworks such as ReactJS and Phaser.<br> I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better developer.",
 
   skills:
     '<span class="code">Languages:</span> HTML, CSS, JavaScript, Python and C<br><span class="code">Technologies:</span> Git, Node.js and Firebase<br><span class="code">Frameworks:</span> React.js and Phaser.js',
