@@ -41,14 +41,17 @@ const execute = function executeCommand(input) {
     window.open("https://learnwithved.hashnode.dev/");
   }
   if (input === "clear") {
-    terminalOutput.innerHTML = `<div class="terminal-line" style="font-size: x-large;">
+    terminalOutput.innerHTML = `                  <div class="terminal-output" id="terminalOutput">
+    <div class="terminal-line" style="font-size: xx-large;">
       <span class="help-msg"
-        >Welcome to my portfolio! — Type
-        <span class="code">help</span> for a list of supported
-        commands.</span`;
+        ><span class="code">Vedantsinghal:$</span> type
+        help to start</span
+      >
+    </div>
+  </div>`;
   }
 
-  output = `<div class="terminal-line"><span class="success">➜</span><span class="directory"> ~/Users/Ved</span> ${input}</div>`;
+  output = `<div class="terminal-line"><span class="success">➜</span><span class="directory"> C:/Users/Ved> </span> ${input}</div>`;
   if (!COMMANDS.hasOwnProperty(input)) {
     output += `<div class="terminal-line">no such command: <span class="output">"${input}"</span></div>`;
     console.log("Oops! no such command");
@@ -86,12 +89,11 @@ document.addEventListener("keydown", backspace);
 document.addEventListener("keypress", key);
 document.addEventListener("DOMContentLoaded", app);
 
-// TOP SECRET, DON'T READ
 const startTheParty = () => {
   var confettiSettings = {
     target: "canvas",
-    max: "1000",
-    size: "1",
+    max: "2000",
+    size: "1.2",
     animate: true,
     props: ["square", "triangle", "line"],
     colors: [
@@ -100,7 +102,7 @@ const startTheParty = () => {
       [0, 199, 228],
       [253, 214, 126],
     ],
-    clock: "25",
+    clock: "20",
     rotate: true,
     width: "1680",
     height: "971",
