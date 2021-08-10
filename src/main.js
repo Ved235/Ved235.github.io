@@ -1,5 +1,5 @@
 const COMMANDS = {
-  help: 'Supported commands: ["<span class="code">about</span>", "<span class="code">blog</span>", "<span class="code">education</span>", "<span class="code">skills</span>", "<span class="code">contact</span>","<span class="code">party</span>,<span class="code">clear</span>"]',
+  help: 'Supported commands: <br> <span class="code">about</span> <br> <span class="code">blog</span> <br> <span class="code">education</span> <br> <span class="code">skills</span> <br> <span class="code">contact</span> <br> <span class="code">party</span> <br> <span class="code">clear</span>',
   about:
     "Hello 👋<br>My name is Vedant Singhal and I am an aspiring developer.<br>I love to code in Python, JavaScript, C and I have worked with frameworks such as ReactJS and Phaser.<br> I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better developer.",
 
@@ -92,8 +92,8 @@ document.addEventListener("DOMContentLoaded", app);
 const startTheParty = () => {
   var confettiSettings = {
     target: "canvas",
-    max: "2000",
-    size: "1.2",
+    max: "1000",
+    size: "1",
     animate: true,
     props: ["square", "triangle", "line"],
     colors: [
@@ -102,9 +102,9 @@ const startTheParty = () => {
       [0, 199, 228],
       [253, 214, 126],
     ],
-    clock: "20",
+    clock: "25",
     rotate: true,
-    width: "1680",
+    width: 2000,
     height: "971",
     start_from_edge: true,
     respawn: false,
