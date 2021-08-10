@@ -40,6 +40,7 @@ a:hover {
   left: 0;
   max-width: 100%;
   overflow-x: hidden;
+
 }
 
 .hero {
@@ -168,9 +169,10 @@ a:hover {
 .success {
   color: #8dd39e;
 }
-
+.error {
+  color: #f65549;
+}
 .code,
-.error,
 .social,
 .fa-heart {
   color: #e76796 ;
@@ -220,3 +222,4 @@ a:hover {
     padding-bottom: 0.5rem;
   }
 }
+
